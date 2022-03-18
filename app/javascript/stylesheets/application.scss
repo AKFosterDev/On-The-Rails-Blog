@@ -35,6 +35,16 @@ a {
 	float: right;
 }
 
+.btn-nav-search {
+	color: #d4cec6;
+	border-color: #d4cec6;
+}
+
+.btn-nav-search:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
 #logo {
 	float: left;
 	font-size: 1.7rem;
@@ -77,10 +87,20 @@ a {
 	font-size: 1.5rem;
 }
 
-.footer-copyright {
+.footer-icon:hover {
+	color: #fff;
+}
+
+.footer-copyright,
+.footer-link {
 	color: #d4cec6;
 	font-size: 0.75rem;
 	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-link:hover {
+	color: #d4cec6;
+	text-decoration: underline #d4cec6;
 }
 
 .footer-dark {
