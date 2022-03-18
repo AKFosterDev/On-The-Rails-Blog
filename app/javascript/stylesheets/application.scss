@@ -8,10 +8,26 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 
-i {
-	color: #fff;
+a {
+	text-decoration: none;
+	color: #d4cec6;
+}
+
+.footer-icon {
+	color: #d4cec6;
 	font-size: 1.5rem;
 }
+
+.footer-copyright {
+	color: #d4cec6;
+	font-size: 0.75rem;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.footer-dark {
+	background-color: #433025;
+}
+
 .bg-image {
 	background-image: url('https://images.unsplash.com/photo-1553453005-34d0cb607b23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
 	height: 300px;
